@@ -1,0 +1,17 @@
+#test:
+#  user:
+#    name: hi beautiful world
+#management:
+#  endpoint:
+#    metrics:
+#      enabled: true
+#    prometheus:
+#      enabled: true
+#    health:
+#      show-detail: always
+#
+#endpoints:
+#  web:
+#    exposure:
+#      include:
+#        - prometheus
